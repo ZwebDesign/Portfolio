@@ -1,0 +1,196 @@
+@font-face{
+    src: url(fonts/LeagueSpartan-Bold.otf);
+    font-family: league;
+}
+@font-face{
+    src: url(fonts/LibreBaskerville-Regular.ttf);
+    font-family: baskerville;
+}
+html{/* scroll-behavior: smooth;*/
+}
+body{background-color:#696D7D;
+}
+abbr{text-decoration: none;
+}
+abbr:hover{cursor: help;
+}
+h1, h2, ul, p, .home{color:#faf3dd; 
+    font-family:league, sans-serif;
+}
+header h1{font-size: 5em; 
+    text-align: center;
+    padding-top:56px;
+    margin: 0px;
+    line-height: 1em;
+}
+header p{margin-top:0px;
+    padding-top:0px;
+    line-height: 0em;
+    padding-left: 5px;        
+}
+nav a{color:#faf3dd;
+}
+nav li, .home, .cntr a{display:inline;
+    font-family: league, sans-serif;
+    background-color: #68B0AB;
+    padding:3px 5px 0px;
+    border: 2.5px solid #68B0AB;
+    border-radius: 12px;
+}
+nav ul{padding:0px;
+}
+nav{max-width:363.5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding:0px;
+}
+nav li a:hover, a.home:hover, .cntr a:hover{color:#696D7D;
+    text-shadow: 1px 1px 0px #faf3dd;
+}
+nav ul li a:active, a.home:active, .cntr a:active{text-shadow:0px 0px 0px #696D7D;
+}
+h2{font-size: 2em;
+    padding-bottom: 0px; 
+    line-height: 0.75em;
+}
+p, ul{font-family: baskerville, serif;
+    line-height: 1.5em
+}
+#bitbout{display:block;
+    margin-bottom: 0px; 
+    margin-left: 10px;
+}
+#bbout{margin-left: auto;
+    margin-right: auto;
+    min-width: 590px;
+    max-width:900px;
+}
+#bout{border: 5px solid #68B0AB;
+    margin: 0px;
+    padding: 10px;
+    padding-left:0px;
+    padding-top: 5px;  
+    min-height:300px; 
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+#bout p{min-width:250; 
+    max-width: 590px;
+    margin-left: 15px;
+    text-decoration: none
+}
+#idt{ text-indent: 40px;
+    letter-spacing: 1px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-decoration: none
+}
+hr{background-color:#faf3dd;
+    height:1.5px;
+    border-radius: 1.5px;
+}
+a{text-decoration: none;
+}
+#sill{float:right; 
+    padding: 20px;
+    padding-left: 0px;
+}
+#folio{text-align: center;
+    display:inline-block;
+}
+#folio .button{text-align: left
+}
+.button p, .button h1{
+    display:inline-block;
+    width:auto;
+    padding-left: 2%;
+    font-size: 3em;
+    margin:0px;
+}
+.home{width:70px;
+    font-size: 1.25em;
+    display:inline-block;
+    line-height: 0.75em;
+    padding-top: 6px;
+    margin: 0px;
+    text-align:center;
+}
+#folio a img{object-fit: cover;
+    width:75%;
+    min-width:550px;
+    max-width:750px;
+    padding:0px;
+    overflow: hidden;
+    border: 5px solid #68B0AB;
+    border-radius: 100px;
+    margin:1%;
+    margin-bottom: 0px;
+}
+.infopgf h2{
+    margin-bottom: 0px;
+}
+.infopgf p{margin-top: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    text-indent: 40px;
+}
+.infopgf{display:inline-block;
+    margin: 0px 1% 1%;
+    min-width:550px;
+    max-width: 750px;
+    vertical-align:top;
+}    
+#folioimg a img:hover{border: 5px solid #faf3dd;
+    box-shadow: 0px 0px 0px 10px #68B0AB;
+}   
+#folioimg a img:active{border: 5px solid #faf3dd;
+    box-shadow:none;
+}
+.cntr{text-indent:40px;
+    display:block;
+    max-width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#prgrm{margin-top:20px;}
+#prgrm h2{text-align: left;
+    display:inline;
+}
+.cntr a{
+    vertical-align: text-bottom;
+    color:#faf3dd;
+}
+#UVinf h2{line-height: normal;
+    margin-bottom:0px;
+}
+#UVinf p{padding:5px 15px;
+    letter-spacing: 1px;
+    border: 5px solid #68B0AB;
+    border-radius: 20px;
+}
+#photo{text-align:center;
+    background-color: #8FC0A9;
+    border-radius: 20px;
+}
+#photo img,#photo p{display:inline-block;
+}
+#photo img{margin-top: 20px;
+    margin-bottom: 16px;
+    border-radius:183px}
+#photo p{max-width:500px;
+    max-height: 266;
+    margin:10px 2% 58px;
+    font-size:18px;
+    background-color:#696D7D; 
+    vertical-align:text-bottom;
+}
+footer .button p{font-size:1em;
+    width:auto;
+    vertical-align:top;
+}
+footer .home{float:right;
+    vertical-align: top;
+}
