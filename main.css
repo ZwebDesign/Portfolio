@@ -17,7 +17,7 @@ abbr:hover{cursor: help;
 }
 p{font-size:1em;;
 }
-h1, h2, ul, p, .home{color:#faf3dd; 
+h1, h2, h3, ul, p, .home{color:#faf3dd; 
     font-family:league, sans-serif;
 }
 header h1{font-size: 5em; 
